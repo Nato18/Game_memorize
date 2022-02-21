@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Juego de Memoria</title>
+  </head>
+  <body>
+    <main>
+      <section class="section1">
+        <h1>Juego de Memoria</h1>
+
+        <table>
+          <tr>
+            <td><button id='n0' onclick="destapar(0,'n0')"></button></td>
+            <td><button id="n1" onclick="destapar(1,'n1')"></button></td>
+            <td><button id="n2" onclick="destapar(2,'n2')"></button></td>
+            <td><button id="n3" onclick="destapar(3,'n3')"></button></td>
+          </tr>
+          <tr>
+            <td><button id="n4" onclick="destapar(4,'n4')"></button></td>
+            <td><button id="n5" onclick="destapar(5,'n5')"></button></td>
+            <td><button id="n6" onclick="destapar(6,'n6')"></button></td>
+            <td><button id="n7" onclick="destapar(7,'n7')"></button></td>
+          </tr>
+          <tr>
+            <td><button id="n8" onclick="destapar(8,'n8')"></button></td>
+            <td><button id="n9" onclick="destapar(9,'n9')"></button></td>
+            <td><button id="n10" onclick="destapar(10,'n10')"></button></td>
+            <td><button id="n11" onclick="destapar(11,'n11')"></button></td>
+          </tr>
+          <tr>
+            <td><button id="n12" onclick="destapar(12,'n12')"></button></td>
+            <td><button id="n13" onclick="destapar(13,'n13')"></button></td>
+            <td><button id="n14" onclick="destapar(14,'n14')"></button></td>
+            <td><button id="n15" onclick="destapar(15,'n15')"></button></td>
+          </tr>
+        </table>
+      </section>
+      <section class="section2">
+        <!-- <div class="estadisticas">
+          <h2> Hola cabros</h2>
+          <a href="#">Reinicio</a>
+        </div> -->
+        <h2 id="aciertos" class="estadisticas">Buenas:  <span>0</span> </h2>
+        <h2 id="tiempo" class="estadisticas">Tiempo: <span>30 segundos</span></h2>
+        <h2 id="movimientos" class="estadisticas">Movimientos: <span>0</span></h2>
+      </section>
+    </main>
+    <footer>
+      <p>Creado por el Nato</p>
+    </footer>
+    <script defer src="facil.js"></script>
+  </body>
+</html>
