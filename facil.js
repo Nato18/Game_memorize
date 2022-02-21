@@ -7,7 +7,7 @@ let SegundoResultado = null;
 let movimientos = 0;
 let aciertos = 0;
 let temporizador = false;
-let timer = 3;
+let timer = 30;
 let timerinicial = timer;
 let tiempofinal = null;
 let imagen = null;
@@ -151,7 +151,7 @@ function reiniciar() {
 
   let aReinicio = document.createElement("a");
   aReinicio.classList.add("aReinicio");
-  aReinicio.setAttribute("href", "facil.html");
+  aReinicio.setAttribute("href", "index.html");
   aReinicio.innerHTML = "Reiniciar";
   selectdiv.appendChild(aReinicio);
 }
